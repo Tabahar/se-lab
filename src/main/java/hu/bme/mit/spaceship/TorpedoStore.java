@@ -15,10 +15,10 @@ public class TorpedoStore {
 
   private int torpedoCount = 0;
 
-  private Random generator = new Random();
+  private Random randomGenerator = new Random();
 
   public double getRandom(){
-    return generator.nextDouble();
+    return randomGenerator.nextDouble();
   }
 
   public TorpedoStore(int numberOfTorpedos){
